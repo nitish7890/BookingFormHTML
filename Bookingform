@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                font-size: 44px;
+                color: darkred;
+            }
+            input{
+                border-radius: 10px;
+                width:250px;
+                height:35px;
+                text-indent: 5px;
+            }
+            input:focus{
+                outline: none;
+
+            }
+            fieldsset{
+                width:50%;
+                height:690px;
+                background-color: khaki;
+                border-radius: 5px;
+                outline: none;
+            }
+            table{
+                font-size:22px;
+            }
+            td{
+                line-height: 50px;
+            }
+            input[type="submit"]{
+                width:120px;
+                height: 30px;
+                background-color: chartreuse;
+            }
+            input[type="submit"]:hover{
+                background-color: darkgreen;
+            }
+            input[type="submit"]{
+                width:120px;
+                height: 30px;
+                background-color: chartreuse;
+            }
+            input[type="cancel"]:hover{
+                background-color: darkgreen;
+            }
+        </style>
+        <title>
+            Booking form
+        </title>
+        <script defer src="facebook/new-form.js"></script>
+    </head>
+    <body>
+        <center>
+            <form>
+                <fieldset>
+                    <table>
+                        <h1> Hotel Reservation Booking form</h1>
+                        <tr>
+                            <th>Name</th>
+                            <td>:</td>
+                            <td><input type="text" name="text" id="name1" placeholder="Enter your Name"></td>
+                        </tr>  <tr>
+                            <th>Email id</th>
+                            <td>:</td>
+                            <td><input type="email" name="email" id="email1" placeholder="Enter your email"></td>
+                        </tr>
+                        <tr>
+                            <th>Contact No.</th>
+                            <td>:</td>
+                            <td><input type="number" name="Number" id="number1" placeholder="Enter your mobile Number"></td>
+                        </tr>
+                        <tr>
+                            <th>From Date</th>
+                            <td>:</td>
+                            <td><input type="date" name="date" id="date1"></td>
+                        </tr>
+                        <tr>
+                            <th>To date</th>
+                            <td>:</td>
+                            <td><input type="date" name="todate" id="todate1"></td>
+                        </tr>
+                        <tr>
+                            <th>Amount</th>
+                            <td>:</td>
+                            <td><input type="text" name="amonut" id="amount1" placeholder="Enter your amonut"></td>
+                        </tr>
+
+                    </table>
+                    <div>
+                        <tr>
+                            <td> 
+                                <input type="submit" value="submit" name="submit" id="send1">
+                                <input type="submit" value="cancel" name="submit" id="send2">
+                            </td>
+                        </tr>
+                    </div>
+                </fieldset>
+            </form>
+        </center>
+    </body>
+</html>
